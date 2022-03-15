@@ -15,10 +15,11 @@ li {
 .heading {
   text-align: center;
   margin-bottom: 113px;
+  font-size: 28px;
 }
 .title-section h3 {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .project {
