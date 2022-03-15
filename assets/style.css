@@ -17,6 +17,69 @@ li {
   list-style: none;
 }
 
+.top-wrapper {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background-image: url(img/ben-kolde-bs2Ba7t69mM-unsplash.jpeg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 48px;
+
+}
+
+.top-wrapper p {
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+.btn-wrapper {
+    margin: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: #f9cada;
+    font-size: 18px;
+}
+
+.header {
+    height:65px;
+    width:100%;
+    position: fixed;
+    top:0;
+    z-index:10;
+    color: white;
+}
+
+.header-left {
+    float: left;
+    padding: 20px 40px;
+    font-size: 28px;
+    font-family: Merriweather;
+}
+
+.header-list li {
+    float: right;
+    padding: 33px 20px;
+    font-size: 18px;
+}
+
 .project-wrapper {
   height: 500px;
   padding-top: 20px;
