@@ -68,6 +68,7 @@ li {
 
 .project-details {
   line-height: normal;
+  cursor: pointer;
 }
 
 .project-details .web-name {
