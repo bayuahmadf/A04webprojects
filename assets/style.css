@@ -33,6 +33,12 @@ li {
   border-radius: 4px;
   margin-bottom: 24px;
   margin-right: 30px;
+  box-shadow: 20px 19px 11px -15px rgba(0, 0, 0, 0.44);
+}
+
+.project img:hover {
+  opacity: 0.8;
+  transition: all 0.5s;
 }
 
 .web-name {
