@@ -98,10 +98,17 @@ li {
   font-family: Merriweather;
 }
 
-.header-list li {
+.header-list {
   float: right;
+}
+.header-list li {
+  float: left;
   padding: 33px 20px;
   font-size: 18px;
+}
+
+.header-list a {
+  color: white;
 }
 
 .project-wrapper {
