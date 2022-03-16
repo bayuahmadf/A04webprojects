@@ -248,3 +248,17 @@ li {
   font-weight: bold;
   font-size: 20px;
 }
+
+.about {
+  background-color: #f7f7f7;
+  padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f7f7f700;
+  margin: 0;
+  height: 30px;
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
+}
