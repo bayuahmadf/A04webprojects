@@ -13,6 +13,10 @@ main {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -256,9 +260,10 @@ li {
 
 footer {
   text-align: center;
-  background-color: #f7f7f700;
-  margin: 0;
-  height: 30px;
   padding-top: 10px;
   font-family: "Open Sans", sans-serif;
+}
+
+footer p {
+  font-size: 15px;
 }
