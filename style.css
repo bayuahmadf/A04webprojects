@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: left;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+
+  margin: 0px;
+}
+
+main {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+li {
+  list-style: none;
+}
+
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 48px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+.btn-wrapper {
+  margin: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 50px;
+  opacity: 0.8;
+  box-shadow: 0 7px #ec105a;
+  padding: 15px 40px;
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #f9cada;
+  font-size: 18px;
+}
+
+.header-top {
+  background-image: url(https://raw.githubusercontent.com/bayuahmadf/A04webprojects/main/assets/img/ben-kolde-bs2Ba7t69mM-unsplash.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+.header {
+  height: 65px;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  color: white;
+}
+
+.header-left {
+  float: left;
+  padding: 20px 40px;
+  font-size: 28px;
+  font-family: Merriweather;
+}
+
+.header-list {
+  float: right;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+  font-size: 18px;
+}
+
+.header-list a {
+  color: white;
+}
+
+.project-wrapper {
+  height: 500px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  /* background-color: #f7f7f7; */
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+.heading h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.project {
+  width: 25%;
+  /* margin: 0 50px; */
+  float: left;
+  text-align: center;
+}
+
+.project img {
+  width: 250px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 30px;
+  box-shadow: 20px 19px 11px -15px rgba(0, 0, 0, 0.44);
+}
+
+.project img:hover {
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+.project img:active {
+  text-align: center;
+  position: fixed;
+  top: 60px;
+  left: 300px;
+  width: 50%;
+  opacity: 1;
+  z-index: 10;
+  transition: all 1s;
+  box-shadow: 0px 0px 56px 500px rgba(0, 0, 0, 0.49);
+}
+
+.project-details {
+  line-height: normal;
+  cursor: pointer;
+}
+
+.project-details .web-name {
+  font-size: 22px;
+  display: block;
+  margin-bottom: -15px;
+}
+
+.project-details .web-origin {
+  font-size: 16px;
+  display: block;
+  opacity: 0.8;
+}
+
+.service h1 {
+  font-size: 28px;
+}
+
+.service p {
+  font-size: 18px;
+}
+
+.service-logo {
+  position: relative;
+}
+
+.service-logo p {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.service-logo img {
+  width: 267px;
+  height: 267px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  margin-right: 30px;
+  box-shadow: 20px 19px 11px -15px rgba(0, 0, 0, 0.44);
+}
+
+.service-logo img:hover {
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+/* .logos {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+} */
+
+.logo {
+  float:left;
+  width: 25%;
+  text-align: center;
+}
+/* .service {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.title-service {
+  padding-left: 85px;
+  padding-bottom: 30px;
+}
+
+.serviceses {
+  height: 504px;
+  padding-top: 20px;
+  background-color: #f7f7f7;
+}
+
+.about-us {
+  height: 708px;
+  padding-top: 20px;
+  background-color: #f7f7f7;
+}
+
+.head-about {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.avatar {
+  float: left;
+  width: 20%;
+  position: relative;
+  text-align: center;
+}
+
+.avatar:hover {
+  opacity: 0.7;
+}
+
+.avatar img {
+ width: 200px;
+ height: 200px;
+ border-radius: 4px;
+ margin-right: 30px;
+}
+
+.avatar p {
+  text-align: center;
+  top: 250px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%
+}
+
+.merk p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+}
+@media (max-width: 1000px ) {
+  .logo {
+      width: 50%;
+  }
+
+  .project {
+    width: 50%;
+}
+
+  .avatar {
+    width: 50%;
+}
+
+@media (max-width: 680px ) {
+  .logo {
+      width: 100%;
+  }
+
+  .project {
+    width: 100%;
+}
+  .avatar {
+  width: 100%;
+}
+
+head {
+  width: 100%
+}
+
+main {
+  width: 100%;
+}
