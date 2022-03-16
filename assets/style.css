@@ -166,22 +166,6 @@ li {
   box-shadow: 0px 0px 56px 500px rgba(0, 0, 0, 0.49);
 }
 
-.project-details {
-  line-height: normal;
-  cursor: pointer;
-}
-
-.project-details .web-name {
-  font-size: 22px;
-  display: block;
-  margin-bottom: -15px;
-}
-
-.project-details .web-origin {
-  font-size: 16px;
-  display: block;
-  opacity: 0.8;
-}
 
 .service h1 {
   font-size: 28px;
