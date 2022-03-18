@@ -275,6 +275,7 @@ footer {
   text-align: center;
   font-weight: normal;
 }
+
 @media (max-width: 1000px) {
   .logo {
     width: 50%;
